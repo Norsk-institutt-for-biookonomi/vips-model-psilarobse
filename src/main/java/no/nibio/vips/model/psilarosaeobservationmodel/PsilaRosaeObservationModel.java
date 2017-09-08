@@ -85,7 +85,7 @@ public class PsilaRosaeObservationModel  extends I18nImpl implements Model{
         while(currentDate.compareTo(endDateCalculation) <= 0)
         {
             Result result = new ResultImpl();
-            result.setResultValidTime(currentDate);
+            result.setValidTimeStart(currentDate);
             
             // Setting result data 
             Observation todayObs = getObservationAtDate(currentDate);

@@ -2,18 +2,18 @@
  * Copyright (c) 2016 NIBIO <http://www.nibio.no/>. 
  * 
  * This file is part of PsilaRosaeObservationModel.
- * PsilaRosaeObservationModel is free software: you can redistribute it and/or modify
- * it under the terms of the NIBIO Open Source License as published by 
- * NIBIO, either version 1 of the License, or (at your option) any
- * later version.
- * 
- * PsilaRosaeObservationModel is distributed in the hope that it will be useful,
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * NIBIO Open Source License for more details.
- * 
- * You should have received a copy of the NIBIO Open Source License
- * along with PsilaRosaeObservationModel.  If not, see <http://www.nibio.no/licenses/>.
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  * 
  */
 package no.nibio.vips.model.psilarosaeobservationmodel;
@@ -38,7 +38,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author treinar
+ * @author Tor-Einar Skog <tor-einar.skog@nibio.no>
  */
 public class PsilaRosaeObservationModelTest {
     
@@ -90,6 +90,7 @@ public class PsilaRosaeObservationModelTest {
         pestObservations.add(obs2);
         
         config.setConfigParameter("pestObservations", pestObservations);
+        //System.out.println(config.toJSON());
         instance.setConfiguration(config);
         List<Result> result = instance.getResult();
         System.out.println("Number of results returned: " + result.size());

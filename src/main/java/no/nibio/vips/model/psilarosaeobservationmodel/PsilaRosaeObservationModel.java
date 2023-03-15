@@ -223,20 +223,20 @@ public class PsilaRosaeObservationModel  extends I18nImpl implements Model{
                 "\t\t\"startDateCalculation\":\"2012-03-25\",\n" +
                 "\t\t\"endDateCalculation\":\"2012-03-25\",\n" +
                 "\t\t\"pestObservations\":[\n" +
-                "\t\t\t{" +
-                "\t\t\t\t\"timeOfObservation\":\"2016-04-20T00:00:00+02:00\"," +
-                "\t\t\t\t\"observationData\":{" +
-                "\t\t\t\t\t\"trapCountCropEdge\":3," +
-                "\t\t\t\t\t\"trapCountCropInside\":2" +
-                "\t\t\t\t}" +
-                "\t\t\t\"}," +
-                "\t\t\t{" +
-                "\t\t\t\t\"timeOfObservation\":\"2016-04-25T00:00:00+02:00\"," +
-                "\t\t\t\t\"observationData\":{" +
-                "\t\t\t\t\t\"trapCountCropEdge\":0," +
-                "\t\t\t\t\t\"trapCountCropInside\":0" +
-                "\t\t\t\t}" +
-                "\t\t\t\"}" +
+                "\t\t\t{\n" +
+                "\t\t\t\t\"timeOfObservation\":\"2016-04-20T00:00:00+02:00\",\n" +
+                "\t\t\t\t\"observationData\":{\n" +
+                "\t\t\t\t\t\"trapCountCropEdge\":3,\n" +
+                "\t\t\t\t\t\"trapCountCropInside\":2\n" +
+                "\t\t\t\t}\n" +
+                "\t\t\t},\n" +
+                "\t\t\t{\n" +
+                "\t\t\t\t\"timeOfObservation\":\"2016-04-25T00:00:00+02:00\",\n" +
+                "\t\t\t\t\"observationData\":{\n" +
+                "\t\t\t\t\t\"trapCountCropEdge\":0,\n" +
+                "\t\t\t\t\t\"trapCountCropInside\":0\n" +
+                "\t\t\t\t}\n" +
+                "\t\t\t}\n" +
                 "\t\t]\n" +
                 "\t}\n" +
                 "}\n";

@@ -18,11 +18,11 @@ This repository contains the implementation of the Carrot rust fly (Psila rosae)
 <h4>Internationally</h4>
 <p>There is a general understanding that with the chemical insecticides that are currently available, it is necessary to spray when the first carrot rust fly is found on the sticky traps. The damage threshold is usually 1 fly/trap/week or 0,2 flies/trap/day. In many countries day-degree models are used in addition to observations of flight period using yellow sticky traps. The threshold is normally 1 fly/trap/week or 0.2 flies/trap/day.</p>
 <h3>References</h3>
-<p>Contacts: Annette F. Schj&oslash;ll <a href="mailto:annette.folkedal.schjoll@nibio.no">annette.folkedal.schjoll@nibio.no</a><br /> Tor J. Johansen <a href="mailto:tor.johansen@nibio.no">tor.johansen@nibio.no</a></p>
+<p>Contacts:  <a href="https://nibio.no/en/employees/annette-folkedal-schjoll">Annette F. Schj&oslash;ll</a>, <a href="https://nibio.no/en/employees/tor-j.johansen">Tor J. Johansen</a></p>
 <h3>Links for more information</h3>
 <p>Plantevernleksikonet (Norwegian only):&nbsp;<a href="https://www.plantevernleksikonet.no/l/oppslag/62/" target="_blank">https://www.plantevernleksikonet.no/l/oppslag/62/</a></p>
 
-### Development
+## Development
 
 Clone Gitlab repository
 
@@ -30,3 +30,11 @@ Clone Gitlab repository
 $ git clone https://gitlab.nibio.no/VIPS/models/java/Model_PSILAROBSE.git
 $ cd Model_PSILAROBSE
 ```
+
+### Compile, run tests
+```bash
+mvn clean install
+```
+
+### Deploy to VIPSCore
+See [the VIPSCore README](https://gitlab.nibio.no/VIPS/VIPSCore)

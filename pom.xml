@@ -11,7 +11,7 @@
 
     <groupId>no.nibio.vips.model</groupId>
     <artifactId>PsilaRosaeObservationModel</artifactId>
-    <version>1.1.16</version>
+    <version>1.1.17-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <dependencies>
@@ -34,7 +34,7 @@
         </dependency>
     </dependencies>
     <properties>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
     </properties>
 </project>
